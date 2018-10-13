@@ -1,0 +1,16 @@
+# ninja log v5
+0	16	1539461270	src/SpaceAge.mliast	cbd3b00e9b64a4e9
+17	23	1539461270	__tests__/SpaceAge_test.mlast.d	70a286e08f94ce71
+0	17	1539461269	__tests__/SpaceAge_test.mlast	df2c8ddada7291b5
+24	37	1539461270	/Users/liang/Exercism/reasonml/space-age/__tests__/SpaceAge_test.bs.js	9455f71278753865
+24	37	1539461270	__tests__/SpaceAge_test-Spaceage.cmj	9455f71278753865
+16	21	1539460977	src/SpaceAge.mlast.d	7a9d35dc703e92c0
+0	10	1539461269	Spaceage.cmi	8a5152061ba50bf6
+0	16	1539460977	src/SpaceAge.mlast	f080ff01cfc7df03
+11	24	1539461270	/Users/liang/Exercism/reasonml/space-age/src/SpaceAge.bs.js	e2499af888b89a35
+24	37	1539461270	__tests__/SpaceAge_test-Spaceage.cmi	9455f71278753865
+16	21	1539461270	src/SpaceAge.mliast.d	19f8c137ef576c0b
+11	24	1539461270	src/SpaceAge-Spaceage.cmj	e2499af888b89a35
+0	11	1539461270	src/SpaceAge-Spaceage.cmi	cad83011a93e1267
+0	18	1539461270	src/SpaceAge.mlast	f080ff01cfc7df03
+19	23	1539461270	src/SpaceAge.mlast.d	7a9d35dc703e92c0
