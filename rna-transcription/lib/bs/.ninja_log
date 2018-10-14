@@ -1,0 +1,14 @@
+# ninja log v5
+15	30	1539540034	__tests__/RnaTranscription_test-RnaTranscription.cmi	26cbdaf656eba69c
+62	70	1539539705	__tests__/RnaTranscription_test.mlast.d	3c179ab8c585b2ce
+1	15	1539540034	src/RnaTranscription-RnaTranscription.cmj	cd1e0f1a8e8e472d
+0	28	1539540034	RnaTranscription.cmi	bb2168636e32bf84
+1	63	1539539705	src/RnaTranscription.mliast	b63f050636ed8908
+0	57	1539539705	__tests__/RnaTranscription_test.mlast	72c3e0c735b909d4
+0	36	1539540034	src/RnaTranscription.mlast	8efab8a5e4ef8ad9
+1	11	1539539705	src/RnaTranscription-RnaTranscription.cmi	cbc1eb2992521607
+15	30	1539540034	/Users/liang/Exercism/reasonml/rna-transcription/__tests__/RnaTranscription_test.bs.js	26cbdaf656eba69c
+15	30	1539540034	__tests__/RnaTranscription_test-RnaTranscription.cmj	26cbdaf656eba69c
+40	48	1539540034	src/RnaTranscription.mlast.d	cb21f6bf4980a3f4
+55	64	1539539705	src/RnaTranscription.mliast.d	606cfbd4e78c0d7d
+1	15	1539540034	/Users/liang/Exercism/reasonml/rna-transcription/src/RnaTranscription.bs.js	cd1e0f1a8e8e472d
