@@ -1,0 +1,7 @@
+# ninja log v5
+2	51	1539793452	Pangram.cmi	383379333b97e746
+1	107	1539793452	src/Pangram.mliast	1fd8e2333d567cfd
+1	107	1539793452	__tests__/Pangram_test.mlast	298cf28739e42b93
+107	120	1539793452	src/Pangram.mliast.d	37f675075aa4d936
+107	120	1539793452	__tests__/Pangram_test.mlast.d	f8c82fe913ff55b5
+0	15	1539793452	src/Pangram-Pangram.cmi	e4aeda8898fb8bf6

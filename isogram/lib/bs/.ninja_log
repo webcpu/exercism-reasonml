@@ -1,0 +1,7 @@
+# ninja log v5
+1	47	1539793451	Isogram.cmi	5f53767c432b5ab2
+0	94	1539793451	src/Isogram.mliast	90d38146ba6303d5
+1	94	1539793451	__tests__/Isogram_test.mlast	8f3d045b06b5c797
+94	108	1539793451	src/Isogram.mliast.d	4af918adceee98d9
+94	108	1539793451	__tests__/Isogram_test.mlast.d	8ca32b9d968544a6
+0	12	1539793451	src/Isogram-Isogram.cmi	b30b217a5247813d

@@ -1,0 +1,7 @@
+# ninja log v5
+2	49	1539793452	Allergies.cmi	945e73d215908fb5
+1	103	1539793452	src/Allergies.mliast	6d87c14725bf9b37
+1	103	1539793452	__tests__/Allergies_test.mlast	3d5f9770f67a6a6b
+103	117	1539793452	src/Allergies.mliast.d	3e3e54c2bd7eac26
+103	117	1539793452	__tests__/Allergies_test.mlast.d	34fac2f2c0e282f7
+0	12	1539793452	src/Allergies-Allergies.cmi	730e6413bcbcbc97

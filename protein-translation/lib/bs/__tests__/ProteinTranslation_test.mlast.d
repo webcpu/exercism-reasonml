@@ -1,0 +1,1 @@
+__tests__/ProteinTranslation_test-ProteinTranslation.cmj : src/ProteinTranslation-ProteinTranslation.cmi

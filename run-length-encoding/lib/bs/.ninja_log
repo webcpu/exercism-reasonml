@@ -1,0 +1,7 @@
+# ninja log v5
+1	50	1539793451	RunLengthEncoding.cmi	e09bcc3f3e9ee72d
+1	96	1539793451	src/RunLengthEncoding.mliast	bd6c57c0b2b56877
+1	97	1539793451	__tests__/RunLengthEncoding_test.mlast	d007101a7d6dd204
+96	112	1539793451	src/RunLengthEncoding.mliast.d	f3d10048738949a
+97	112	1539793451	__tests__/RunLengthEncoding_test.mlast.d	13869c0a299dc775
+1	15	1539793451	src/RunLengthEncoding-RunLengthEncoding.cmi	11b19af78b64e322

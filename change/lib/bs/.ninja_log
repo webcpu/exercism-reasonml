@@ -1,0 +1,7 @@
+# ninja log v5
+2	46	1539793451	Change.cmi	14c42993ddcf7ec4
+1	100	1539793451	src/Change.mliast	6db5d30ff6dcdd7c
+1	101	1539793451	__tests__/Change_test.mlast	de7cb3189737a80d
+100	113	1539793451	src/Change.mliast.d	48ab5aa203399a6e
+101	113	1539793451	__tests__/Change_test.mlast.d	7891331cf9029469
+0	13	1539793451	src/Change-Change.cmi	58e9ed67bfb1995d

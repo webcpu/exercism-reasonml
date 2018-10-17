@@ -1,0 +1,1 @@
+__tests__/Allergies_test-Allergies.cmj : src/Allergies-Allergies.cmi

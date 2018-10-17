@@ -28,3 +28,13 @@
 12	29	1539788721	__tests__/Anagram_test-Anagram.cmi	8bc02121edda79bd
 12	29	1539788721	/Users/liang/Exercism/reasonml/anagram/__tests__/Anagram_test.bs.js	8bc02121edda79bd
 12	29	1539788721	__tests__/Anagram_test-Anagram.cmi	8bc02121edda79bd
+3	59	1539793451	Anagram.cmi	bc7bf5076ee5e737
+1	114	1539793451	src/Anagram.mliast	5da468e087991775
+1	114	1539793451	__tests__/Anagram_test.mlast	ddb13866bf9e925c
+1	115	1539793451	src/Anagram.mlast	988f227e635b34e
+114	132	1539793451	__tests__/Anagram_test.mlast.d	a5112249df05cd1c
+116	132	1539793451	src/Anagram.mlast.d	78af422160c1aba4
+114	132	1539793451	src/Anagram.mliast.d	22ceef2a734d8f1c
+1	12	1539793451	src/Anagram-Anagram.cmi	a6923a98e1e8ebc2
+12	34	1539793451	src/Anagram-Anagram.cmj	953d1774f46f757b
+12	34	1539793451	/Users/liang/exercism/reasonml/anagram/src/Anagram.bs.js	953d1774f46f757b

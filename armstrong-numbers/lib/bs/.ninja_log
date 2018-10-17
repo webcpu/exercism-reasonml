@@ -75,3 +75,16 @@
 11	26	1539781525	__tests__/ArmstrongNumbers_test-ArmstrongNumbers.cmj	a33a7d42f6eb8e8b
 11	26	1539781525	/Users/liang/Exercism/reasonml/armstrong-numbers/__tests__/ArmstrongNumbers_test.bs.js	a33a7d42f6eb8e8b
 11	26	1539781525	__tests__/ArmstrongNumbers_test-ArmstrongNumbers.cmi	a33a7d42f6eb8e8b
+1	14	1539789388	ArmstrongNumbers.cmi	75c3b1341da2e814
+0	23	1539789388	src/ArmstrongNumbers.mliast	814a1983e95b589e
+1	24	1539789388	src/ArmstrongNumbers.mlast	6235924f9befef52
+0	24	1539789388	__tests__/ArmstrongNumbers_test.mlast	d0a0fbdda7da776f
+23	29	1539789388	src/ArmstrongNumbers.mliast.d	727a57638e538223
+24	29	1539789388	src/ArmstrongNumbers.mlast.d	f1b83b60012c85cf
+24	30	1539789388	__tests__/ArmstrongNumbers_test.mlast.d	82cfb96556b43adb
+0	12	1539789388	src/ArmstrongNumbers-ArmstrongNumbers.cmi	24bb3641f43f7b8b
+12	27	1539789388	src/ArmstrongNumbers-ArmstrongNumbers.cmj	697e4edab98997b4
+12	27	1539789388	/Users/liang/exercism/reasonml/armstrong-numbers/src/ArmstrongNumbers.bs.js	697e4edab98997b4
+27	44	1539789388	__tests__/ArmstrongNumbers_test-ArmstrongNumbers.cmj	a42920d3b9386842
+27	44	1539789388	/Users/liang/exercism/reasonml/armstrong-numbers/__tests__/ArmstrongNumbers_test.bs.js	a42920d3b9386842
+27	44	1539789388	__tests__/ArmstrongNumbers_test-ArmstrongNumbers.cmi	a42920d3b9386842

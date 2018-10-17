@@ -99,3 +99,13 @@
 14	30	1539779813	__tests__/Raindrops_test-Raindrops.cmj	62a1f099f75600f1
 14	30	1539779813	/Users/liang/Exercism/reasonml/raindrops/__tests__/Raindrops_test.bs.js	62a1f099f75600f1
 14	30	1539779813	__tests__/Raindrops_test-Raindrops.cmi	62a1f099f75600f1
+1	52	1539793452	Raindrops.cmi	bdce83d0d5273cfe
+1	109	1539793452	src/Raindrops.mliast	baf7cf1f5b61dceb
+0	109	1539793452	__tests__/Raindrops_test.mlast	844ea6d74ce58947
+1	109	1539793452	src/Raindrops.mlast	fdeca99d9cb97449
+109	122	1539793452	src/Raindrops.mlast.d	d730b45c33167ac1
+109	122	1539793452	__tests__/Raindrops_test.mlast.d	50364a98a3c14406
+109	122	1539793452	src/Raindrops.mliast.d	38f307182147e775
+0	14	1539793452	src/Raindrops-Raindrops.cmi	4200651afa2bb74a
+14	31	1539793452	src/Raindrops-Raindrops.cmj	36b4ef09a6cd7dfc
+14	31	1539793452	/Users/liang/exercism/reasonml/raindrops/src/Raindrops.bs.js	36b4ef09a6cd7dfc

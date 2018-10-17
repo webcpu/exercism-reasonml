@@ -1,0 +1,1 @@
+__tests__/AllYourBase_test-AllYourBase.cmj : src/AllYourBase-AllYourBase.cmi
