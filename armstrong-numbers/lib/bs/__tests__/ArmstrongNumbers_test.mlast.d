@@ -1,0 +1,1 @@
+__tests__/ArmstrongNumbers_test-ArmstrongNumbers.cmj : src/ArmstrongNumbers-ArmstrongNumbers.cmj
