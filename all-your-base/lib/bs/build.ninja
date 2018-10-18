@@ -1,16 +1,16 @@
 bs_package_flags = -bs-package-map all-your-base
-src_root_dir = /Users/liang/exercism/reasonml/all-your-base
-bsc = /Users/liang/exercism/reasonml/all-your-base/node_modules/bs-platform/lib/bsc.exe
-bsdep = /Users/liang/exercism/reasonml/all-your-base/node_modules/bs-platform/lib/bsb_helper.exe
+src_root_dir = /Users/liang/Exercism/reasonml/all-your-base
+bsc = /Users/liang/Exercism/reasonml/all-your-base/node_modules/bs-platform/lib/bsc.exe
+bsdep = /Users/liang/Exercism/reasonml/all-your-base/node_modules/bs-platform/lib/bsb_helper.exe
 warnings = -w -30-40+6+7+27+32..39+44+45+101 -warn-error +101
-bsc_flags = -bs-suffix -nostdlib -I '/Users/liang/exercism/reasonml/all-your-base/node_modules/bs-platform/lib/ocaml' -no-alias-deps -color always
+bsc_flags = -bs-suffix -nostdlib -I '/Users/liang/Exercism/reasonml/all-your-base/node_modules/bs-platform/lib/ocaml' -no-alias-deps -color always
 ppx_flags = 
 bs_package_includes = 
-bs_package_dev_includes = -I /Users/liang/exercism/reasonml/all-your-base/node_modules/@glennsl/bs-jest/lib/ocaml
+bs_package_dev_includes = -I /Users/liang/Exercism/reasonml/all-your-base/node_modules/@glennsl/bs-jest/lib/ocaml
 namespace = -ns AllYourBase
 bsb_dir_group = 0
 bsc_group_1_includes = -I __tests__
-refmt = /Users/liang/exercism/reasonml/all-your-base/node_modules/bs-platform/lib/refmt.exe
+refmt = /Users/liang/Exercism/reasonml/all-your-base/node_modules/bs-platform/lib/refmt.exe
 reason_react_jsx = 
 refmt_flags = --print binary
 bsc_lib_includes = -I . -I src
@@ -44,8 +44,17 @@ rule build_cmi
 build src/AllYourBase-AllYourBase.cmi : build_cmi src/AllYourBase.mliast
   bsc_flags = $bsc_flags -bs-re-out -bs-super-errors
   bs_package_flags = $bs_package_flags  -bs-package-output commonjs:src
+build src/AllYourBase.mlast : build_ast_and_module_sets_from_re $src_root_dir/src/AllYourBase.re
+build src/AllYourBase.mlast.d : build_deps src/AllYourBase.mlast
+rule build_cmj_only
+  command = ${bsc} ${bs_package_flags} -bs-assume-has-mli -bs-no-builtin-ppx-ml -bs-no-implicit-include  ${bs_package_includes} ${bsc_lib_includes} ${bsc_extra_includes} ${warnings} ${bsc_flags} -o ${out} -c  ${in} $postbuild
+  depfile = ${in}.d
+  description = [34mBuilding[39m [2m${out}[22m
+build src/AllYourBase-AllYourBase.cmj |  $src_root_dir/src/AllYourBase.bs.js : build_cmj_only src/AllYourBase.mlast |  src/AllYourBase-AllYourBase.cmi
+  bsc_flags = $bsc_flags -bs-re-out -bs-super-errors
+  bs_package_flags = $bs_package_flags  -bs-package-output commonjs:src
 rule build_package
   command = ${bsc} -w -49 -no-alias-deps -c ${in}
   description = [34mBuilding[39m [2m${out}[22m
 build AllYourBase.cmi : build_package AllYourBase.mlmap
-build build.ninja : phony  ||  AllYourBase.cmi src/AllYourBase.mliast.d __tests__/AllYourBase_test.mlast.d
+build build.ninja : phony  ||  AllYourBase.cmi src/AllYourBase.mlast.d src/AllYourBase.mliast.d __tests__/AllYourBase_test.mlast.d

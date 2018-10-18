@@ -1,1 +1,1 @@
-__tests__/Isogram_test-Isogram.cmj : src/Isogram-Isogram.cmi
+__tests__/Isogram_test-Isogram.cmj : src/Isogram-Isogram.cmj

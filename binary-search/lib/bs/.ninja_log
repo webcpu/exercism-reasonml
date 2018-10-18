@@ -1,0 +1,14 @@
+# ninja log v5
+1	42	1539861210	src/BinarySearch.mliast	c4b9dc1bd3ae50d6
+0	19	1539870835	src/BinarySearch.mlast	3233cf94f511632c
+1	11	1539861210	src/BinarySearch-BinarySearch.cmi	7914778e00e2860a
+11	25	1539870835	__tests__/BinarySearch_test-BinarySearch.cmi	7025c1b5c3c91802
+3	16	1539870835	BinarySearch.cmi	4c27859467cd1c0d
+0	11	1539870835	/Users/liang/Exercism/reasonml/binary-search/src/BinarySearch.bs.js	1c57b28f79b193c0
+42	50	1539861210	src/BinarySearch.mliast.d	2e67d6c5d0ad1dde
+19	24	1539870835	src/BinarySearch.mlast.d	11dafd16fe735710
+0	43	1539861210	__tests__/BinarySearch_test.mlast	c19154e6d1a59503
+0	11	1539870835	src/BinarySearch-BinarySearch.cmj	1c57b28f79b193c0
+42	49	1539861210	__tests__/BinarySearch_test.mlast.d	d209059cf5af9054
+11	25	1539870835	/Users/liang/Exercism/reasonml/binary-search/__tests__/BinarySearch_test.bs.js	7025c1b5c3c91802
+11	25	1539870835	__tests__/BinarySearch_test-BinarySearch.cmj	7025c1b5c3c91802
